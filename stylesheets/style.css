@@ -1,0 +1,503 @@
+body {
+    margin: 0%;
+}
+
+#background-video {
+    position: fixed;
+    background: fixed;
+    top: -200px;
+    right: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    /* margin: -50px; */
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(1, 0, 35, 0.851);
+    font-family: NEXT ART;
+    height: 10vh;
+}
+
+#logo {
+    width: 140px;
+}
+
+header h1 {
+    color: rgba(0, 255, 225, 0.684);
+    font-size: 16px;
+}
+
+header ul {
+    text-align: center;
+    align-items: center;
+    padding-top: 3px;
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    width: 300px;
+    padding-left: 13px;
+}
+
+header ul li {
+    color: white;
+    margin: 0px 10px 0px 10px;
+    display: inline;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+header ul li:hover {
+    color: white;
+    width: 30px;
+    background-color: rgba(0, 255, 225, 0.684);
+    padding: 10px;
+    height: 34px;
+    border-radius: 40px;
+
+}
+
+header button {
+    background-color: rgba(0, 255, 225, 0.684);
+    font-family: 'Times New Roman', Times, serif ART;
+    display: block;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 34px;
+    padding: 10px 25px 10px 25px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+header button:hover {
+    background-color: black;
+}
+
+.main {
+    /* margin: 20px; */
+    background-color: rgba(1, 0, 35, 0.851);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+    font-family: NEXT ART;
+
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(2, 0, 16, 0.726);
+    padding: 2px;
+    border-radius: 40px;
+    width: 400px;
+    height: 400px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main h1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#weather {
+    color: white;
+    padding-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-top: 0px; */
+    /* display: inline-block; */
+    margin-bottom: 100px;
+}
+
+#weather-icon {
+    margin-left: 50px;
+    width: 50px;
+    margin-bottom: 16px;
+}
+
+#location {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    margin-top: 26px;
+    font-size: 14px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.084);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: unset;
+    text-decoration: unset;
+    font-family: unset;
+}
+.main input {
+    background-color: rgba(0, 0, 0, 0.255);
+    width: 280px;
+    padding: 12px;
+    padding-left: 30px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    border: 2px solid rgba(0, 255, 225, 0.684);
+    border-radius: 100px;
+}
+
+/* Readme start */
+
+
+.how-to {
+    margin: 0%  ;
+    background-color:white;
+    color: black;
+}
+
+#how-h1{
+    margin: 0%;
+    text-align: center;
+    font-size: 40px;
+    font-family:  Franklin Gothic Medium;
+    /* word-spacing: 4px; */
+    letter-spacing: -0.7px;
+    padding: 40px;
+}
+
+
+.how-both-sides {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.how-right {
+    width:600px;
+    padding: 20px;
+
+}
+.how-right p {
+    font-size: 20px;
+    font-family: Century Schoolbook;
+    line-height: 30px;
+}
+
+
+#how-video {
+    margin: 20px;
+    width: 550px;
+    border-radius: 10px;
+    /* height: 300px; */
+}
+
+
+#description {
+    margin: 20px;
+    /* text-align: left; */
+}
+#right-h1 {
+    font-family: Franklin Gothic Medium;
+    font-size: 26px;
+}
+
+
+
+/* Readme end */
+/* Mobile (Large) */
+@media only screen and (max-width: 425px) {
+    body {
+        background-color: rgba(1, 0, 35, 0.851);
+    }
+    
+    header {
+        height: auto;
+    }
+    
+    .main {
+        /* margin: 20px; */
+        background-color: rgba(1, 0, 35, 0.851);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 425px;
+
+        font-family: NEXT ART;
+        
+    }
+    
+    .wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(2, 0, 16, 0.726);
+        /* padding: 1px; */
+        border-radius: 40px;
+        width: 300px;
+        height: 350px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: -100px;
+
+    }
+
+    .main h1 {
+        color: white;
+        font-size: 45px;
+        margin-top: 0px;
+        /* margin-b: 0px; */
+    }
+    
+    .main input {
+        background-color: rgba(0, 0, 0, 0.255);
+        width: 200px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        border: 2px solid rgba(0, 255, 225, 0.684);
+        border-radius: 100px;
+    }
+
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.084);
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #location {
+        color: white;
+        font-family: NEW ART;
+        margin-left: 52px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    
+    
+    
+#how-video {
+    margin: 20px;
+    width: 350px;
+    border-radius: 10px;
+    /* height: 300px; */
+}
+
+.how-right p {
+    font-size: 17px;
+    font-family: Century Schoolbook;
+    line-height: 24px;
+}
+    
+    
+    
+}
+
+
+
+/* Mobile ( Medium) */
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: rgba(5, 0, 141, 0.873);
+        /* margin-top: 200px; */
+    }
+    
+    header {
+        /* height: auto; */
+        /* background-color: aqua; */
+        width: 425px;
+        /* display: block; */
+    }
+    
+    
+    #weather {
+        padding-left: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* margin-top: 0px; */
+        /* display: inline-block; */
+        margin-bottom: 90px;
+    }
+    
+    #weather-icon {
+        margin-left: 40px;
+        width: 50px;
+        margin-bottom: 16px;
+    }
+    
+    #location {
+        color: white;
+        font-family: NEW ART;
+        margin-left: 20px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    .main {
+        /* margin: 20px; */
+        background-color: rgba(1, 0, 35, 0.851);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 425px;
+
+        font-family: NEXT ART;
+        
+    }
+    
+    .wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(2, 0, 16, 0.726);
+        /* padding: 1px; */
+        border-radius: 40px;
+        width: 300px;
+        height: 350px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: -100px;
+
+    }
+    
+    
+    .main input {
+        background-color: rgba(0, 0, 0, 0.255);
+        width: 200px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        border: 2px solid rgba(0, 255, 225, 0.684);
+        border-radius: 100px;
+    }
+    
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.084);
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .how-to {
+        width: 425px;
+    }
+    
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+    body {
+        background-color: rgba(5, 0, 141, 0.873);
+        /* margin-top: 200px; */
+    }
+
+    header {
+        /* height: auto; */
+        /* background-color: aqua; */
+        width: 400px;
+        border-bottom: none;
+        /* display: block; */
+    }
+
+    .main {
+        /* margin: 20px; */
+        background-color:rgba(1, 0, 35, 0.851);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 102vh;
+
+        width: 400px;
+        font-family: NEXT ART;
+
+    }
+
+    
+    #weather {
+        padding-left: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* margin-top: 0px; */
+        /* display: inline-block; */
+        margin-bottom: 90px;
+    }
+    
+    #weather-icon {
+        margin-left: 40px;
+        width: 50px;
+        margin-bottom: 16px;
+    }
+    
+    #location {
+        color: white;
+        font-family: NEW ART;
+        margin-left: 20px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    .wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(2, 0, 16, 0.726);
+        
+        border-radius: 40px;
+        width: 330px;
+        height: 300px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
+    }
+
+
+    .main input {
+        background-color: rgba(0, 0, 0, 0.255);
+        width: 200px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        border: 2px solid rgba(0, 255, 225, 0.684);
+        border-radius: 100px;
+    }
+
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.084);
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .how-to {
+        width: 400px;
+    }
+
+
+}
+
+
+
